@@ -11,6 +11,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/fralfaro/fastmatrix-book/reference/</loc>
+         <lastmod>2022-07-27</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/fralfaro/fastmatrix-book/r_docs/Mahalanobis/</loc>
          <lastmod>2022-07-27</lastmod>
          <changefreq>daily</changefreq>
