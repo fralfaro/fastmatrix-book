@@ -24,8 +24,9 @@ kurtosis, Mahalanobis distance (checking the positive defineteness) and the Wils
 * **Maintainer**: Felipe Osorio <felipe.osorios@usm.cl>
 * **Depends**: R(>= 3.5.0)
 * **License**: GPL-3 
-* **URL**: https://faosorios.github.io/fastmatrix/ 
+* **URL**: [https://faosorios.github.io/fastmatrix/ ](https://faosorios.github.io/fastmatrix/ )
 * **NeedsCompilation**: yes 
 * **LazyLoad**: yes 
 * **Repository**: CRAN 
 * **Date/Publication**: 2022-07-05 19:00:02 UTC
+* **Documentation**: [fralfaro/fastmatrix-book](https://github.com/fralfaro/fastmatrix-book) 
