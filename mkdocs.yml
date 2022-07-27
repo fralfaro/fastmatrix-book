@@ -142,3 +142,4 @@ nav:
         - vech: r_docs/vech.md
         - whitening: r_docs/whitening.md
         - wilson.hilferty: r_docs/wilson.hilferty.md
+    - reference.md
