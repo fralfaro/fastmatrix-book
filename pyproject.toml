@@ -9,4 +9,3 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8"
 mkdocs-material = "^8.2.15"
-mkdocs-jupyter = "^0.21.0"
