@@ -1,0 +1,144 @@
+# Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+
+# Project information
+site_name: Home
+site_url: https://github.com/fralfaro/fastmatrix-book
+site_author: Francisco Alfaro
+site_description: Book documentation of the Fastmatrix library
+
+# Repository
+repo_name: faosorios/fastmatrix
+repo_url: https://github.com/faosorios/fastmatrix
+edit_uri: ''
+
+
+
+# Markdown extensions
+markdown_extensions:
+  - attr_list
+  - admonition
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - pymdownx.tabbed
+
+# Extra javascript
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+# Theme
+theme:
+  name: material
+  language: en
+  logo: images/logo.bmp
+  features:
+    - navigation.instant
+    - navigation.top
+    - content.code.annotate
+    - search.suggest
+    - search.highlight
+  palette:
+    # Light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/fralfaro
+    - icon: fontawesome/brands/gitlab
+      link: https://gitlab.com/fralfaro
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/faam/
+    - icon: fontawesome/brands/kaggle
+      link: https://www.kaggle.com/faamds
+    - icon: fontawesome/brands/medium
+      link: https://medium.com/@fralfaro
+
+# Plugins
+plugins:
+  - mkdocs-jupyter:
+      kernel_name: python3
+  - search
+
+
+# TOC
+nav:
+    - Home: index.md
+    - R topics documented:
+        - array.mult: r_docs/array.mult.md
+        - asSymmetric: r_docs/asSymmetric.md
+        - bezier: r_docs/bezier.md
+        - bracket.prod: r_docs/bracket.prod.md
+        - cg: r_docs/cg.md
+        - cholupdate: r_docs/cholupdate.md
+        - circulant: r_docs/circulant.md
+        - comm.info: r_docs/comm.info.md
+        - comm.prod: r_docs/comm.prod.md
+        - commutation: r_docs/commutation.md
+        - corAR1: r_docs/corAR1.md
+        - corCS: r_docs/corCS.md
+        - cov.MSSD: r_docs/cov.MSSD.md
+        - cov.weighted: r_docs/cov.weighted.md
+        - dupl.cross: r_docs/dupl.cross.md
+        - dupl.info: r_docs/dupl.info.md
+        - dupl.prod: r_docs/dupl.prod.md
+        - duplication: r_docs/duplication.md
+        - equilibrate: r_docs/equilibrate.md
+        - geomean: r_docs/geomean.md
+        - hadamard.prod: r_docs/hadamard.prod.md
+        - harris.test: r_docs/harris.test.md
+        - helmert: r_docs/helmert.md
+        - is.lower.tri: r_docs/is.lower.tri.md
+        - jacobi: r_docs/jacobi.md
+        - kronecker.prod: r_docs/kronecker.prod.md
+        - kurtosis: r_docs/kurtosis.md
+        - ldl: r_docs/ldl.md
+        - lu-methods: r_docs/lu-methods.md
+        - lu: r_docs/lu.md
+        - lu2inv: r_docs/lu2inv.md
+        - Mahalanobis: r_docs/Mahalanobis.md
+        - matrix.inner: r_docs/matrix.inner.md
+        - matrix.norm: r_docs/matrix.norm.md
+        - matrix.polynomial: r_docs/matrix.polynomial.md
+        - mediancenter: r_docs/mediancenter.md
+        - minkowski: r_docs/minkowski.md
+        - moments: r_docs/moments.md
+        - ols.fit-methods: r_docs/ols.fit-methods.md
+        - ols.fit: r_docs/ols.fit.md
+        - ols: r_docs/ols.md
+        - power.method: r_docs/power.method.md
+        - ridge: r_docs/ridge.md
+        - seidel: r_docs/seidel.md
+        - sherman.morrison: r_docs/sherman.morrison.md
+        - sweep.operator: r_docs/sweep.operator.md
+        - symm.info: r_docs/symm.info.md
+        - symm.prod: r_docs/symm.prod.md
+        - symmetrizer: r_docs/symmetrizer.md
+        - vec: r_docs/vec.md
+        - vech: r_docs/vech.md
+        - whitening: r_docs/whitening.md
+        - wilson.hilferty: r_docs/wilson.hilferty.md
